@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2188
+
+This color scheme is for GUI only, although it contains some tweaks for the console version of Vim, too. It is not too complicated and its highlights are supposed to be cheerful, friendly to your eyes, and easy to read. Though all niceties can only bee seen in Vim 7, this color scheme should work in Vim 6, too.
+
+Since version 1.1 it contains not only a light color scheme, but also a dark one. The correct scheme is being chosen according to the setting of the option 'background'.
+
+You can switch between these styles by using the :Colo command, like ":Colo light" or ":Colo dark"
