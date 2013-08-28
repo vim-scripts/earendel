@@ -9,7 +9,7 @@ let colors_name = "earendel"
 execute "command! -nargs=1 Colo set background=<args>"
 
 if &background == "light"
-    hi Normal ctermbg=15 ctermfg=0 guibg=#f0f0f0 guifg=#000000 gui=none
+    hi Normal ctermbg=15 ctermfg=0 guibg=#f5f5f5 guifg=#2d2d2d gui=none
 
     hi ColorColumn ctermbg=7 ctermfg=fg guibg=#d5d5d5 gui=none
     hi Cursor guibg=#000000 guifg=#ffffff gui=none
