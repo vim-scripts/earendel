@@ -23,13 +23,13 @@ if &background == "light"
     hi Directory guibg=bg guifg=#272fc2 gui=none
     hi ErrorMsg guibg=#ca001f guifg=#ffffff gui=bold
     hi FoldColumn ctermbg=bg guibg=bg guifg=#656565 gui=none
-    hi Folded guibg=#cacaca guifg=#4a4a4a gui=bold
+    hi Folded guibg=#bdbdbd guifg=#4a4a4a gui=bold
     hi IncSearch guibg=#f7b69d gui=none
     hi LineNr guibg=bg guifg=#656565 gui=none
     hi ModeMsg ctermbg=bg ctermfg=fg guibg=bg guifg=fg gui=bold
     hi MoreMsg guibg=bg guifg=#4a4a4a gui=bold
     hi NonText ctermfg=8 guibg=bg guifg=#656565 gui=bold
-    hi Pmenu guibg=#cacaca guifg=fg gui=none
+    hi Pmenu guibg=#c5c5c5 guifg=fg gui=none
     hi PmenuSbar guibg=#8f8f8f guifg=fg gui=none
     hi PmenuSel guibg=#fee06b guifg=fg gui=none
     hi PmenuThumb guibg=#d4d4d4 guifg=fg gui=none
@@ -51,9 +51,9 @@ if &background == "light"
     hi Title guifg=fg gui=bold
     hi VertSplit ctermbg=7 ctermfg=fg guibg=#cdcdcd guifg=#384547 gui=none
     if version >= 700
-        hi Visual ctermbg=7 ctermfg=fg guibg=#cacaca gui=none
+        hi Visual ctermbg=7 ctermfg=fg guibg=#c5c5c5 gui=none
     else
-        hi Visual ctermbg=7 ctermfg=fg guibg=#cacaca guifg=fg gui=none
+        hi Visual ctermbg=7 ctermfg=fg guibg=#c5c5c5 guifg=fg gui=none
     endif    
     hi VisualNOS ctermbg=8 ctermfg=fg guibg=bg guifg=#4a4a4a gui=bold,underline
     hi WarningMsg guibg=bg guifg=#ca001f gui=bold
